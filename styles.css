@@ -1,0 +1,457 @@
+/*  
+Author: Kyleena Przybylski 
+File Name: styles.css
+Date: 02/14/2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #ecf2f9;
+    color: #132639;
+    padding-top: 70px;
+}
+
+#banner {
+    max-width: 100%;
+    display: block;
+    padding-bottom: 1px;
+}
+
+.banner-image {
+    width: 672px;
+    height: 112px;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 1px;
+    
+}
+
+/* Style rules for div area */
+h1 {
+    text-align: center;
+    font-family: "Fjalla one", sans-serif;
+    color: #132639;
+}
+
+h2 {
+    color: #132639;
+    font-family: "Fjalla one", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: "gantari", sans-serif;
+    font-weight: bold;
+    color: #132639;
+}
+
+div p {
+    font-family: "gantari", sans-serif;
+}
+
+
+/* Style rules for mobile viewport */
+
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile {
+    display: block;
+    padding: 8px
+}
+
+
+.gantari-small {
+  font-family: "Gantari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-regular {
+  font-family: "gantari", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tab-desk, #tab-desk-table {
+    display: none;
+}
+/* Style rules for header area */
+.mobile h1 h3 {
+    padding: 2%;
+    text-align: center;
+}
+
+.mobile h1 fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.mobile h3 lora-uniquifier {
+  font-family: "gantari", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Style rules for hamburger menu */
+
+#hamburger {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+}
+
+nav {
+    background-color: #132639;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 1.24em;
+    font-family: "Fjalla one", sans-serif;
+    font-weight: 100;
+    border-top: solid 0.5px #ecf2f9;
+}
+
+nav li a {
+    display: block;
+    color: #ecf2f9;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Fjalla one", sans-serif;
+    text-decoration: none;
+    padding: 0%;
+    display: block;
+}
+
+.tablet-desktop, #nav-links {
+        display: none;
+}
+
+.tabs {
+    border: solid 0.5px #f6eee4;
+}
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #132639;
+    padding: 0.5%;
+}
+
+.nav-icon div {
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px auto;
+}
+/* Style rules for main content */
+
+main {
+    padding: 2%;
+    font-family: "gantari", sans-serif;
+    text-decoration: none;
+}
+
+main p {
+    font-size: 1.25em;
+    color: #132639;
+}
+
+main h3 {
+    padding-top: 2%;
+    color: #132639;
+    text-align: center;
+}
+
+main ul {
+    list-style-type: square;
+    font-family: "gantari", sans-serif;
+    display: block;
+}
+
+main li {
+    background-color:#3973ac;
+    color:#ecf2f9;
+    padding: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid;
+    border-color: #132639;
+}
+
+main li a {
+    color: #ecf2f9;
+    text-decoration: dotted;
+    border-radius: 10px;
+    
+}
+
+main img {
+    background-color: #132639;
+}
+
+#sources {
+    color: #ecf2f9;
+    text-decoration: none;
+}
+
+iframe {
+    display: inline-block;
+    margin: auto;
+    border: solid;
+    border-color: #132639;
+    margin-bottom: 10px;
+}
+/* style rules for table within main */
+
+table, th, td {
+    border: solid 1px #204060;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    background-color: #d9e6f2;
+}
+
+.type {
+    font-weight: bold;
+}
+
+.review {
+    font-size: smaller;
+}
+
+td {
+    text-align: center;
+    width: 180px;
+}
+#table {
+    max-width: max-width;
+}
+
+.table img {
+    object-fit: cover;
+    border-radius: 0;
+}
+
+/* Style rules for class and id selectors */
+.link {
+    color: #538cc6;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.round {
+    border-radius: 6px;
+}
+
+#foods {
+    font-family: "gantari", sans-serif;
+    
+}
+
+#foods ul {
+    margin-left: 10%;
+    font-family: "gantari", sans-serif;
+}
+
+#contact {
+    text-align: center;
+}
+
+.tel-link {
+    background-color: #132639;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.tel-link a {
+    color: #ecf2f9;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    background-color: #132639;
+}
+
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #132639;
+    color: #ecf2f9;
+    padding: 1% 0%;
+    font-family: "gantari", sans-serif;
+}
+
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+    font-family: "gantari", sans-serif;
+}
+
+/* Custom Navbar Theme */
+.custom-navbar {
+    background-color: #132639;
+}
+
+/* Brand (title) */
+.custom-navbar .navbar-brand {
+    color: #ecf2f9;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #3973ac;
+}
+
+/* Nav links */
+.custom-navbar .nav-link {
+    color: #ecf2f9;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #3973ac;
+}
+
+/* Active link */
+.custom-navbar .nav-item.active .nav-link {
+    color: #3973ac;
+}
+
+/* Hamburger icon color */
+.custom-navbar .navbar-toggler {
+    border-color: #ecf2f9;
+}
+
+/* hamburger lines */
+.custom-navbar .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 620px), print {
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+.tab-desk {
+    display: block;
+}
+
+ #tab-desk-table {
+    display: table;
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+.table img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+    
+.mobile-nav, #mobile-table {
+        display: none;
+}
+    
+.mobile {
+    display: none;
+    
+}
+
+/* Tablet Viewport: Style rules for nav area */
+nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+nav li a {
+    padding: 0.5em;
+}
+
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px), print {
+body {
+    background: linear-gradient(#ecf2f9, #132639);
+}
+
+#wrapper {
+    width: 1920px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    background-color: #ecf2f9;
+}
+
+
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
+/* Desktop Viewport: Style rules for nav area */
+nav li {
+    font-size: 1.5em;
+}
+
+nav li a {
+    padding: 0.5em 1.5em;
+}
+
+nav li a:hover {
+    color: #132639;
+    background-color: #ecf2f9;
+}
+
+/* Desktop Viewport: Style rules for main content */
+#info ul {
+    margin-left: 5%;
+}
